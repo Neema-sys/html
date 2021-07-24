@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM</title>
+</head>
+<body>
+	<h1 style="text-align: center;"><u>FORM</u></h1>
+	<fieldset><br>
+	<form>
+		<div>
+		<label for="name">Name</label>
+		<input type="text" name="name" id="name" placeholder="Name" maxlength="25" required="required">
+
+		<label for="Email">Email</label>
+		<input type="Email" name="Email" id="Email" value="test@example.com" required="required" autofocus="autofocus"><br><br>
+	</div>
+		<label for="pswd">Password</label>
+		<input type="Password" name="pswd" id="pswd" required="required" maxlength="6"><br><br>
+
+
+	<!--dropdown-->
+		<label for="category">Category</label>
+
+		<select id="category" name="category"  required="required">
+			<option value="Student"required="required" >Student</option>
+			<option value="Employee" required="required">Employee</option>
+			<option value="Freelancer" selected="" required="required">Freelancer</option>
+		</select><br><br>
+	<!--dropdown-->
+
+
+		<label for="Date">Event Date</label>
+		<input type="Date" name="Date" id="Date" required="required"><br><br>
+
+
+	<!--radiobutton-->
+		<label for="ticket">Ticket : </label>
+
+		<input type="radio" name="ticket" value="1 ticket"  required="required">1 ticket
+		<input type="radio" name="ticket" value="2 ticket" checked=""   required="required">2 ticket
+		<input type="radio" name="ticket" value="3 ticket"  required="required">3 ticket <br><br>
+	<!--radiobutton-->
+
+
+	<!--checkbox-->
+		<label for="payment">Payment : </label>
+		<input type="checkbox" name="payment" value="Online Payment" required="required">Online Payment <br><br>
+    <!--checkbox-->
+
+
+		Notes :<br><br>
+
+		<textarea rows="5" cols="50" name="notes" placeholder="Notes"></textarea><br><br>
+
+		<input type="Submit" value="Submit" name="Submit">
+
+		<input type="Reset" value="Reset">
+	</form><br>
+	</fieldset>
+
+</body>
+</html>
